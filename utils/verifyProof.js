@@ -17,6 +17,7 @@ function verifyProof(proof, leaf, root) {
     }
   }
 
+
   return bytesToHex(data) === root;
 }
 
